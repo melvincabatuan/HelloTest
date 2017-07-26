@@ -5,20 +5,36 @@
  */
 package com.mycompany.hellotest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Administrator
  */
 public class HelloTest {
-    
+
     String message;
-    
-     public void setGreet(String message){
+    List<String> greetings;
+
+    public HelloTest() {
+        greetings = new ArrayList<>();
+    }
+
+    public void setGreet(String message) {
         this.message = message;
     }
-    
-    public String getGreet(){
+
+    public String getGreet() {
         return message;
     }
-    
+
+    public void setGreetings(List<String> greetings) {
+        this.greetings = greetings;
+    }
+
+    public List<String> getGreetings() {
+        return greetings;
+    }
+
 }
