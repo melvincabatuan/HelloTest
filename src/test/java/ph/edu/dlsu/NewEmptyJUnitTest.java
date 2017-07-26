@@ -5,7 +5,7 @@
  */
 package ph.edu.dlsu;
 
-import com.mycompany.hellotest.HelloTest;
+import ph.edu.dlsu.cabatuan.junitdemo.HelloTest;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.After;
